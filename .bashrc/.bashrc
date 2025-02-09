@@ -151,7 +151,7 @@ alias invm='nvim'
 alias nimv='nvim'
 
 tosrc() {
-  if [ z "$1" ]; then
+  if [ -z "$1" ]; then
     echo "Usage: tosrc <username>"
     return 1
   fi
